@@ -13,6 +13,9 @@ a{
     text-decoration: none;
     color:#000;
 }
+a:hover{
+    text-decoration: none;
+}
 .header{
     background: rgb(15,12,41);
 background: linear-gradient(90deg, rgba(15,12,41,1) 0%, rgba(48,43,99,1) 52%, rgba(36,36,62,1) 100%);
@@ -127,8 +130,10 @@ padding:1%;
 
 
 .card{
-    width:70%;
+    width:100%;
 }
+
+
 
 
 /* ========================categorical-news============================= */
@@ -162,6 +167,20 @@ padding:1%;
     color:#fff;
     font-size: 1vw;
 }
+
+@media(max-width:1080px)
+{
+    .desc .img-desc{
+        font-size:1.5vw;
+    }
+}
+@media(max-width:1080px)
+{
+    .sec-news a  p{
+        font-size:1rem;
+    }
+}
+
 .sec-news{
     display:flex;
     
