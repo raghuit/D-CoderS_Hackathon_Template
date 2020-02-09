@@ -3,6 +3,7 @@ body{
     padding:0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    background: #e3edf7;
 }
 p{
     margin:0;
@@ -10,6 +11,7 @@ p{
 }
 a{
     text-decoration: none;
+    color:#000;
 }
 .header{
     background: rgb(15,12,41);
@@ -69,7 +71,11 @@ background: linear-gradient(90deg, rgba(48,43,99,1) 1%, rgba(48,43,99,1) 53%, rg
     border-radius:1.5rem;
     padding:2%;
     overflow-y: scroll;
-    border:1px solid darkblue;
+    
+box-sizing: border-box;
+box-shadow: 8px 8px 15px -1px  rgba(0,0,0,0.15),
+            -8px -8px 15px -1px  rgba(0,0,0,0.05);
+border: 1px solid rgba(0,0,0,0.0.0);
 
 }
 
@@ -77,8 +83,13 @@ background: linear-gradient(90deg, rgba(48,43,99,1) 1%, rgba(48,43,99,1) 53%, rg
 display: flex;
 align-items: center;
 padding:1%;
+
 }
 
+.news:hover{
+    background-color: #70707065;
+    border-radius: 0.5rem;
+}
 .news-headline{
     padding:2%;
     font-size:1.2rem;
@@ -158,13 +169,18 @@ padding:1%;
 .sec-news:hover{
     
     border-radius:1rem;
-    background-color: #C7E5FF;
+    box-shadow: 8px 8px 15px -1px  rgba(0,0,0,0.15),
+            -8px -8px 15px -1px  rgba(0,0,0,0.05);
+border: 1px solid rgba(0,0,0,0.0.0);
 
 }
 .sec-news p {
     margin:0 6%;
     font-size: 1vw;
     font-weight: bold;
+}
+.sec-news a{
+    text-decoration: none;
 }
 
 
