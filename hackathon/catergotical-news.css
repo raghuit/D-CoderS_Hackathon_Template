@@ -1,0 +1,32 @@
+.body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: #e3edf7;
+}
+
+.news-hostel img{
+    width:10rem;
+    height: 10rem;
+}
+
+.news-hostel{
+    display: flex;
+    align-items: center;
+    padding:3%;
+    box-sizing: border-box;
+box-shadow: 8px 8px 15px -1px  rgba(0,0,0,0.15),
+            -8px -8px 15px -1px  rgba(0,0,0,0.05);
+border: 1px solid rgba(0,0,0,0.0.0);
+border-radius:1rem;
+color:rgb(48,43,99);
+
+}
+.news-hostel p{
+    padding:3%;
+}
+.posts .row{
+    margin-bottom:5%;
+    
+}

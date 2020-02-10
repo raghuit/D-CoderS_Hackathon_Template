@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="177.066" height="58" viewBox="0 0 177.066 58">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.2" y1="-0.196" x2="0.8" y2="1.196" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#27cde3"/>
+      <stop offset="0.203" stop-color="#36b2dc"/>
+      <stop offset="0.635" stop-color="#5e6fcb"/>
+      <stop offset="1" stop-color="#8332bc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.227" y1="-0.884" x2="0.773" y2="1.884" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8332bc"/>
+      <stop offset="0.365" stop-color="#5e6fcb"/>
+      <stop offset="0.797" stop-color="#36b2dc"/>
+      <stop offset="1" stop-color="#27cde3"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_37" data-name="Group 37" transform="translate(-121 -1844)">
+    <g id="Group_36" data-name="Group 36" transform="translate(-383.333 1688.34)">
+      <g id="Group_1" data-name="Group 1" transform="translate(522.881 155.66)">
+        <path id="Path_1" data-name="Path 1" d="M752.654,197.207h-85.32l11.129-41.547h85.32Z" transform="translate(-622.328 -155.66)" fill="url(#linear-gradient)"/>
+        <path id="Path_2" data-name="Path 2" d="M674.56,206.207H529.333l8.1-41.547H682.658Z" transform="translate(-529.333 -157.983)" fill="url(#linear-gradient-2)"/>
+      </g>
+      <text id="ACADEMICS" transform="translate(594.81 188.65)" fill="#fff" font-size="20" font-family="Ubuntu-Light, Ubuntu" font-weight="300" letter-spacing="0.025em"><tspan x="-56.11" y="0">ACADEMICS</tspan></text>
+      <path id="Path_3" data-name="Path 3" d="M581.356,227.982H514.333l1.787-16.322h67.023Z" transform="translate(-4.317 -14.453)" fill="#1a1a1a"/>
+      <g id="Group_3" data-name="Group 3" transform="translate(504.333 170.127)">
+        <line id="Line_2" data-name="Line 2" x1="41.547" transform="translate(135.519)" fill="none" stroke="#1a1a1a" stroke-miterlimit="10" stroke-width="1"/>
+        <g id="Group_2" data-name="Group 2" transform="translate(0 14.838)">
+          <line id="Line_3" data-name="Line 3" x1="31.902" transform="translate(0 2.968)" fill="none" stroke="#1a1a1a" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Line_4" data-name="Line 4" x1="22.999" transform="translate(12.613)" fill="none" stroke="#1a1a1a" stroke-miterlimit="10" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+    <text id="news" transform="translate(137 1898)" fill="#fff" font-size="21" font-family="Ubuntu-Regular, Ubuntu"><tspan x="0" y="0">news</tspan></text>
+  </g>
+</svg>

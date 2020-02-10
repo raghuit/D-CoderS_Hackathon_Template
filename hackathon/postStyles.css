@@ -1,0 +1,88 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: #e3edf7;
+}
+.post img{
+width:100%;
+height: 40rem;
+}
+.post{
+    box-sizing: border-box;
+box-shadow: 8px 8px 15px -1px  rgba(0,0,0,0.15),
+            -8px -8px 15px -1px  rgba(0,0,0,0.05);
+border: 1px solid rgba(0,0,0,0.0.0);
+border-radius:1rem;
+}
+.popular-news{
+    width:100%;
+}
+
+
+.main-container{
+    padding:2%;
+}
+.announcement{
+    /* background: rgb(48,43,99);
+background: linear-gradient(90deg, rgba(48,43,99,1) 1%, rgba(48,43,99,1) 53%, rgba(36,36,62,1) 100%); */
+    
+    width:100%;
+    height:40rem;
+    margin-top:1rem;
+    border-radius:1.5rem;
+    padding:2%;
+    overflow-y: scroll;
+    
+box-sizing: border-box;
+box-shadow: 8px 8px 15px -1px  rgba(0,0,0,0.15),
+            -8px -8px 15px -1px  rgba(0,0,0,0.05);
+border: 1px solid rgba(0,0,0,0.0.0);
+
+}
+
+
+.news{
+    display: flex;
+    align-items: center;
+    padding:1%;
+    
+    }
+    
+    .news:hover{
+        background-color: #70707065;
+        border-radius: 0.5rem;
+    }
+    .news-headline{
+        padding:2%;
+        font-size:1.2rem;
+        color:#000;
+        text-align: center;
+    }
+    .announcement::-webkit-scrollbar{
+        display:none;
+    }
+    .announcement{
+        -ms-overflow-style: none;
+    }
+    
+/* 
+    ===================text=============== */
+
+    #heading{
+        font-size:2.5rem;
+    }
+
+    #post-body{
+        font-size:1rem;
+        margin:2%;
+        
+    }
+
+    @media(max-width:766px)
+    {
+        .popular-news{
+            margin-top:8%;
+        }
+    }
